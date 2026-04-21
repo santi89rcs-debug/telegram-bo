@@ -30,7 +30,4 @@ async def scheduler():
 
         await asyncio.sleep(20)
 
-async def main():
-    await send_poll()
-
-asyncio.run(main())
+asyncio.run(scheduler())
